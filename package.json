@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "axios": "^1.7.7",
+    "react-router-dom": "^6.27.0",
+    "typeface-roboto": "^1.1.13"
+  },
+  "scripts": {
+    "start": "react-scripts start --openssl-legacy-provider",
+    "dev": "react-scripts start --openssl-legacy-provider"
+  }
+}
