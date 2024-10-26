@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #b5cc34;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    position: fixed;
+    z-index: 9;
+    box-shadow: 0 8px 16px #292a2b;
+    border: 2px solid #294159; 
+    border-width: 2px 2px 0 0; 
+    border-radius: 0 0 5px 5px;
+}
+
+.texto{
+    color:white;
+    font-size: 32px;
+}
+
+img{
+    height: 100%;
+    margin-left: 5px;
+}
+
+.texto{
+    color: #294159;
+    font-size: 45px;
+}

@@ -1,0 +1,76 @@
+.header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 70px;
+}
+
+.btn-cadastrar {
+    background-color: #294159; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 4px; 
+    padding: 10px 20px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.btn-cadastrar:hover {
+    background-color: #1f333d; 
+}
+
+.p-datatable {
+    font-size: 1.1rem; 
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.p-datatable-header {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.p-datatable tbody tr:nth-child(even) {
+    background-color: #f0f8ff;
+}
+
+.p-datatable tbody tr:hover {
+    background-color: #d9eaff;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+    background-color: #294159; 
+    color: #ffffff; 
+    font-weight: bold;
+    padding: 12px;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    vertical-align: middle;
+    padding: 12px;
+}
+
+.p-datatable .p-sortable-column-icon {
+    margin-left: 5px;
+    color: #ffffff; 
+}
+
+body {
+    background-color: #f7f9fc; 
+}
+
+.icons-div {
+    margin-right: 75px;
+}
+
+.icon-actions-edit {
+    color: #ffc107; 
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.icon-actions-excluir {
+    color: #e74c3c; 
+    cursor: pointer;
+}

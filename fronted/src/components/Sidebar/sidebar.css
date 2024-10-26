@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height: 100%;
+    background-color: #b5cc34;
+    padding-top: 20px;
+    gap: 20px;
+    margin-top: 75px;
+    border: 2px solid #294159; 
+    border-width: 2px 2px 0 0; 
+    border-radius: 5px 5px 0 0; 
+    
+  }
+  
+  .icons {
+    color: rgb(38, 38, 39);
+    transition: color 0.3s ease; 
+    cursor: pointer; 
+  }
+
+  .icons i.pi {
+    font-size: 2rem; 
+}
+  
+  .icons:hover {
+    color: #ffffff; 
+  }
+  
+  .active-link .pi {
+    color: #ffffff; 
+  }
+  
+  
