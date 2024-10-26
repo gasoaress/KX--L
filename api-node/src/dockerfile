@@ -1,20 +1,14 @@
-# Use a imagem base do Node.js
+
 FROM node:20-alpine
 
-# Defina o diretório de trabalho dentro do container
-
-# Copie o arquivo package.json para o diretório de trabalho
 COPY package*.json ./
 
-# Instale as dependências
 RUN npm install
 RUN npm install -g nodemon 
-# Copie o restante do código do projeto
+
 COPY src ./
 COPY start-node ./
-# Exponha a porta em que a aplicação será executada
+
 EXPOSE 3000
 
-#RUN ls
-# Comando para rodar a aplicação
 CMD ["sh","start-node" ]
