@@ -55,4 +55,20 @@ Certifique-se de ter os seguintes programas instalados:
     - cd api-node
 3. Execute o comando para iniciar o servidor backend:
     - npm run dev
-  
+## Imagens do Projeto
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/4956daa8-0c6c-42a4-92bb-89d78f09d0ed" width="45%" />
+  <img src="https://github.com/user-attachments/assets/acffaa28-3fc3-49b8-8703-a9957a427d74" width="45%" />
+  <img src="https://github.com/user-attachments/assets/6a2c9356-34d9-4da6-9636-800854ad5788" width="45%" />
+  <img src="https://github.com/user-attachments/assets/7da85f2d-c567-43c5-ab87-ea65e9cc1317" width="45%" />
+</p>
+
+## Logotipos Criados
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/54870e87-3944-4e28-8234-afa2918c043a" width="55%" />
+  <img src="https://github.com/user-attachments/assets/d8e20d33-15cb-4c96-b105-79ac13ab9c34" width="35%" />
+</p>
+
+
+
+
